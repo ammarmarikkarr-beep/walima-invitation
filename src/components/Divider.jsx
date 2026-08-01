@@ -1,4 +1,4 @@
-git remote remove originexport default function Divider() {
+export default function Divider() {
   return (
     <div className="divider" aria-hidden="true">
       <span className="line" />
