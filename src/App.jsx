@@ -14,8 +14,8 @@ export default function App() {
 
   function handleOpen() {
     setOpening(true)
-    // Match the CSS door transition (1.1s) before unmounting the overlay.
-    setTimeout(() => setEntered(true), 1150)
+    // Match the CSS flap transition (1.2s) before unmounting the overlay.
+    setTimeout(() => setEntered(true), 1250)
   }
 
   return (
